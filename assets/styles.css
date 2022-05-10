@@ -27,6 +27,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+
+    text-align: right;
+}
+
+.logo a {
+    color: rgb(0,0,0);
+}
+
+.logo a[disabled] {
+    text-decoration: none;
+    color:rgb(146, 146, 146);
 }
 
 ul {
